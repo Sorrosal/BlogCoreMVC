@@ -20,15 +20,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\Admin\Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Include="..\.editorconfig" Link=".editorconfig" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\BlogCore.AccesoDatos\BlogCore.AccesoDatos.csproj" />
+    <ProjectReference Include="..\BlogCore.Models\BlogCore.Models.csproj" />
   </ItemGroup>
 
 </Project>
