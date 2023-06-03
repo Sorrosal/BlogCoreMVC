@@ -1,7 +1,7 @@
 ﻿using BlogCore.AccesoDatos.Data.Repository.IRepository;
 using BlogCore.Data;
 using BlogCore.Models;
-using System.Web.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace BlogCore.AccesoDatos.Data.Repository
 {
